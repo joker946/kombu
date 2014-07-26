@@ -1,0 +1,50 @@
+[
+  {
+    "size": "13167616", 
+    "virtual_size": "41126400",
+    "filename": "/Users/alexchadin/Desktop/qcow2/img/cir.img"
+  }, 
+  {
+    "size": "197197824", 
+    "virtual_size": "1073741824",
+    "filename": "/Users/alexchadin/Desktop/qcow2/img/disk.img"
+  },
+  {
+    "size": "242941952", 
+    "virtual_size": "2147483648",
+    "filename": "/Users/alexchadin/Desktop/qcow2/img/fed.qcow2"
+  }, 
+  { 
+    "size": "16318464",  
+    "backing_file": "disk.img", 
+    "snapshots": [
+      {
+        "virtual_size": 0,
+        "id": "1", 
+        "name": "first" 
+      }, 
+      {
+        "virtual_size": 0,
+        "id": "2", 
+        "name": "second"
+      }, 
+      {
+        "virtual_size": 0,
+        "id": "4",
+        "name": "fourthfourth"
+      },
+      {
+        "virtual_size": 0,
+        "id": "3", 
+        "name": "thirdthird"
+      },
+      {
+        "virtual_size": 0,
+        "id": "5", 
+        "name": "thirdasdthird"
+      }
+    ],
+    "filename": "/Users/alexchadin/Desktop/qcow2/img/ss.img",
+    "virtual_size": "1073741824"
+  }
+]
